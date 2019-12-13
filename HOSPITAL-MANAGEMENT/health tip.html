@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="css/healthtip.css">
+    </head>
+    <body>
+        <div class="healthContainer" id="tips">
+            <div class="header">
+                HEALTH <br><br>TIPS
+            </div>
+            <div class="content">
+                <ul type="disc">
+                    <li>Oranges are excellent in all type of fevers</li>
+                    <li>When the digestive of the body id seriously hampered</li>
+                    <li>Orange juice provides energy,increases urinary output and promotes body resitance against infections ,therby hastening recovery</li>
+                </ul>
+            </div>
+        </div>
+    </body>
+    <script>
+        var tip = document.getElementById("tips");
+        tip.addEventListener("mouseover",function(){
+            tip.style.left = "calc(100% - 400px)";
+        });
+        tip.addEventListener("mouseout",function(){
+            tip.style.left = "calc(100% - 40px)";
+        });
+    </script>
+</html>
